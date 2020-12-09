@@ -1,0 +1,144 @@
+*{
+   padding: 0;
+    margin: 0;
+    font-family:helvetica,Arial,sans-serif, 'karla';
+
+}
+
+body{
+    background-color: #062863;
+    position:relative;
+    padding: 0 30px;
+}
+main {
+    align-items: center;
+}
+ .corner-images{
+     border: 1px;
+     position: relative;
+ }
+ 
+ .corner-images img {
+     position: fixed;
+     width: 180px;
+     height: 180px;
+ }
+
+ .corner-images .top-right {
+     right:-7.5%;
+     top: -1%;
+ }
+ .corner-images .top-left {
+    left: -1%;
+    top: -15%;
+ }
+ .corner-images .bottom-left {
+    left: -5%;
+    bottom:-10%;
+ }
+
+ .corner-images .bottom-right {
+    right: -5%;
+    bottom: -5%;
+ }
+
+ .logo{
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom:1px;
+     position: relative;
+     margin-right:90px;
+     margin-bottom:3rem;
+ }
+ 
+.form{
+    background-color: white;
+    min-width: 100px;
+    max-width: 450px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px 20px 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+form .heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+form h1{
+    color: #083e9e; 
+    font-size: 1.5rem;
+    margin-bottom: -50px; 
+}
+
+form p{
+    font-size: .875rem;
+    color:rgb(104, 102, 102);
+    font-family:sans-serif;
+    padding-top: 2%;
+    text-align: center;
+    margin: 50px 0;
+}
+.form-group{
+    margin-top:-50px;
+    margin-bottom:30px;
+    padding-bottom: 30px;
+}
+.form-group label{
+    font-size:12px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding: 15px 8px;
+    background-color: rgb(237,242,247);
+    border-radius: 5px;
+    border-color: transparent;
+}
+.form-group input[type]{
+    border-color:transparent;
+}
+.submit button{
+    width:100%; 
+    height: 50px;
+    background-color:rgba(16, 53, 218, 0.857);
+    color: white;
+    text-transform: uppercase;
+
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 0; 
+    border-color:transparent;
+}
+.submit button:hover{
+    background: rgb(21, 24, 206);
+}
+
+ .bottom > p{
+    text-align: center;
+     text-decoration: none;
+     margin-left:15px;
+     padding: 5% 0%;
+     font-size: small;
+     font-weight: 500;
+ }
+ .bottom a{
+     text-decoration:none;
+     color: #fff;
+     font-family: sans-serif;
+     background: transparent;
+ }
+ .bottom a:hover{
+     font-size:.75rem;
+     color: rgb(88, 85, 85);
+     /* font-weight:700; */
+ }
